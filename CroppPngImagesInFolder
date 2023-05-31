@@ -1,8 +1,9 @@
+# https://stackoverflow.com/questions/1905421/crop-a-png-image-to-its-minimum-size
+
 import os
 import glob
 from PIL import Image
 
-#  work folder by folder (freezing issues)
 folder_dir = "images/folder/path/"
 
 # Find all files in folders and subfolders
